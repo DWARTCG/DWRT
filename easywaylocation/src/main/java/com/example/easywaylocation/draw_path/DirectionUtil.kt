@@ -57,7 +57,7 @@ class DirectionUtil private constructor(builder: Builder) {
         builder.polyLineSecondaryColor?.let {
             this.polyLineSecondaryColor =it
         }?:kotlin.run {
-            this.polyLineSecondaryColor = Color.LTGRAY
+            this.polyLineSecondaryColor = Color.BLUE
         }
         this.wayPoints = builder.wayPoints
         this.pathAnimation = builder.pathAnimation
