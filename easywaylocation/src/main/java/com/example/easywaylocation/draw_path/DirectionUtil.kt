@@ -52,7 +52,7 @@ class DirectionUtil private constructor(builder: Builder) {
         builder.polyLinePrimaryColor?.let {
             this.polyLinePrimaryColor =it
         }?:kotlin.run {
-            this.polyLinePrimaryColor = Color.BLACK
+            this.polyLinePrimaryColor = Color.BLUE
         }
         builder.polyLineSecondaryColor?.let {
             this.polyLineSecondaryColor =it
