@@ -27,7 +27,7 @@ class DirectionUtil private constructor(builder: Builder) {
     private var wayPoints = ArrayList<LatLng>()
     private var origin: LatLng?
     private var destination: LatLng?
-    private var polyLineWidth = 10
+    private var polyLineWidth = 20
     private var pathAnimation:Boolean
     private var polyLinePrimaryColor:Int = 0
     private var polyLineSecondaryColor = 0
@@ -420,7 +420,7 @@ class DirectionUtil private constructor(builder: Builder) {
             private set
         var destination: LatLng? = null
             private set
-        var polyLineWidth = 13
+        var polyLineWidth = 20
             private set
         var polyLineSecondaryColor:Int? = null
             private set
